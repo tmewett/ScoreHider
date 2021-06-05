@@ -1,0 +1,11 @@
+/* Like and retweet counts
+
+Look for 2nd child to avoid hiding the singular non-annotated buttons when
+viewing a single tweet.
+*/
+div[data-testid=like] > div > div:nth-child(2),
+div[data-testid=unlike] > div > div:nth-child(2),
+div[data-testid=retweet] > div > div:nth-child(2),
+div[data-testid=unretweet] > div > div:nth-child(2) {
+  display: none !important;
+}

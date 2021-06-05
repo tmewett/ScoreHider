@@ -1,0 +1,8 @@
+.voteButton + div,
+[data-testid=comment-top-meta] > ._2ETuFsVzMBxiHia6HfJCTQ,
+.score,
+.userkarma,
+._3XoW0oYd5806XiOr24gGdb,
+.awardings-bar {
+  display: none !important;
+}
