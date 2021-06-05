@@ -1,0 +1,5 @@
+@use 'score_hider';
+
+#vote-count-middle {
+    @include score_hider.score;
+}
