@@ -1,7 +1,7 @@
 @use 'score_hider';
 
 // Score with vote buttons
-.voteButton + div,
+[data-click-id="upvote"] + *,
 // Redesign user page: scores in comment header
 [data-testid="comment-top-meta"] > ._2ETuFsVzMBxiHia6HfJCTQ,
 // Old style scores

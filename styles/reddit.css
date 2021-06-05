@@ -1,4 +1,4 @@
-.voteButton + div,
+[data-click-id=upvote] + *,
 [data-testid=comment-top-meta] > ._2ETuFsVzMBxiHia6HfJCTQ,
 .score,
 .userkarma,
