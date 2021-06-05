@@ -3,37 +3,14 @@
 // Score with vote buttons
 .voteButton + div,
 // Redesign user page: scores in comment header
-[data-testid="comment-top-meta"] > ._2ETuFsVzMBxiHia6HfJCTQ:first-of-type,
+[data-testid="comment-top-meta"] > ._2ETuFsVzMBxiHia6HfJCTQ,
 // Old style scores
 .score,
+.userkarma,
 // Awards
 ._3XoW0oYd5806XiOr24gGdb,
 // Old awards
 .awardings-bar
 {
     @include score_hider.score;
-    text-align: center;
-}
-
-// .entry .score.likes
-// {
-//     display: inline-block;
-//     @include score_hider.fixed_size(5em);
-//     text-align: right;
-// }
-
-[data-testid="comment-top-meta"] > ._2ETuFsVzMBxiHia6HfJCTQ:first-of-type
-{
-    @include score_hider.fixed_size(5em);
-    text-align: right;
-}
-
-.voteButton + div
-{
-    @include score_hider.fixed_size(3em);
-}
-
-._3XoW0oYd5806XiOr24gGdb
-{
-    @include score_hider.fixed_size(2em, 20px);
 }
