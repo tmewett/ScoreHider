@@ -1,0 +1,40 @@
+@mixin fixed_size($width, $height: null) {
+    min-width: $width;
+    @if $height {
+        min-height: $height;
+    }
+    &:not(:hover)
+    {
+        width: $width !important;
+        @if $height {
+            height: $height;
+        }
+        overflow: hidden;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+}
+
+@mixin score {
+    // Allow :hover
+    pointer-events: auto;
+
+    &:not(:hover)
+    {
+        color: transparent !important;
+        background-color: #888;
+        opacity: 0.3;
+
+        > *
+        {
+            visibility: hidden;
+        }
+    }
+
+    // &:hover {
+    //     color: unset !important;
+    //     background-color: unset;
+    //     opacity: unset;
+    // }
+}
+
