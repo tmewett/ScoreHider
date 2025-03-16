@@ -4,6 +4,8 @@
 [data-click-id="upvote"] + *,
 // Redesign user page: scores in comment header
 [data-testid="comment-top-meta"] > ._2ETuFsVzMBxiHia6HfJCTQ,
+// Redesign user karma
+.icon-karma_fill + *,
 // Old style scores
 .score,
 .userkarma,
